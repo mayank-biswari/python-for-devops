@@ -1,5 +1,5 @@
 install:
-	#install commands
+	pip install -r requirements.txt
 format:
 	#format code
 lint:
