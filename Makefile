@@ -1,11 +1,11 @@
 install:
 	pip install -r requirements.txt
 format:
-	black *.py mylib/*py
+	black *.py mylib/*.py
 lint:
-	pylint --disable=R,C *.py mylib/*py
+	pylint --disable=R,C *.py mylib/*.py
 test:
-	#test
+	python -m pytest -vv tests/test_*.py
 deploy:
 	#deploy
 all: install lint deploy
