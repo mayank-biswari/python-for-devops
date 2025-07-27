@@ -1,2 +1,3 @@
 python-for-devops
 __pycache__
+.coverage
